@@ -1,10 +1,20 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
+  <Navbar />
   <router-view />
+  <Copyright />
 </template>
+
+<script>
+import Navbar from "@/components/Navbar.vue";
+import Copyright from "@/components/Copyright.vue";
+export default {
+  name: "App",
+  components: {
+    Navbar,
+    Copyright,
+  },
+};
+</script>
 
 <style>
 #app {
@@ -28,3 +38,4 @@
   color: #42b983;
 }
 </style>
+
