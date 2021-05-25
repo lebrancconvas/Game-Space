@@ -1,14 +1,20 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/desk.png" />
-    <HelloWorld />
+    <Hello />
     <Sign />
   </div>
 </template>
 
 <script>
+  import Hello from "@/components/Hello.vue";
+  import Sign from "@/components/Sign.vue";
   export default {
-    name: "Home"  
+    name: "Home",
+    component: {
+      Hello,
+      Sign,
+    }
   }
 
 </script>

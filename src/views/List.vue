@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>List Na Ha</h1>
+    <h1>List Na Hub</h1>
   </div>
 </template>
 

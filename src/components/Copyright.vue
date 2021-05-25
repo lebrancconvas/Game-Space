@@ -2,6 +2,12 @@
   <footer>Copyright © 2021 Co-Space. All Rights Reserved.</footer>
 </template>
 
+<script>
+export default {
+  name: "Copyright",
+};
+</script>
+
 <style scoped>
 footer {
   position: absolute;
