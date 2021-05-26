@@ -7,16 +7,15 @@
 </template>
 
 <script>
-  import Hello from "@/components/Hello.vue";
-  import Sign from "@/components/Sign.vue";
-  export default {
-    name: "Home",
-    component: {
-      Hello,
-      Sign,
-    }
-  }
-
+import Hello from "@/components/Hello.vue";
+import Sign from "@/components/Sign.vue";
+export default {
+  name: "Home",
+  component: {
+    Hello,
+    Sign,
+  },
+};
 </script>
 
 <style scoped>
