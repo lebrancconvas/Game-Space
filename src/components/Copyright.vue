@@ -1,5 +1,5 @@
 <template>
-  <footer>Copyright © 2021 Co-Space. All Rights Reserved.</footer>
+  <footer>Copyright © 2021 Game Space. All Rights Reserved.</footer>
 </template>
 
 <script>
@@ -10,16 +10,14 @@ export default {
 
 <style scoped>
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  height: 3px;
-  padding-top: 10px;
+  z-index: 100;
   align-items: center;
   justify-content: center;
   text-align: center;
   background: black;
   color: white;
-  padding-bottom: 5.4%;
 }
 </style>

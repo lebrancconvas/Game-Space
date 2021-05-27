@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="gamespace-bar">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <router-link to="/"
         ><a class="navbar-brand" href="#">Co Space</a></router-link
@@ -46,4 +46,11 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.gamespace-bar {
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+}
+</style>
