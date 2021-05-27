@@ -4,7 +4,7 @@ import About from "../views/About.vue";
 import List from "../views/List.vue";
 import Login from "../views/Login.vue";
 import Signup from "../views/Signup.vue";
-
+import Firstpage from "../views/Firstpage.vue";
 
 const routes = [{
         path: "/",
@@ -30,6 +30,11 @@ const routes = [{
         path: "/about",
         name: "About",
         component: About,
+    },
+    {
+        path: "/firstpage",
+        name: "Firstpage",
+        component: Firstpage,
     },
 ];
 

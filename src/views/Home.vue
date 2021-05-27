@@ -1,24 +1,29 @@
 <template>
-  <div class="home">
-    <div>
-      <img alt="Vue logo" src="../assets/desk.png" />
+  <div>
+    <Navbar />
+    <div class="home">
+      <div>
+        <img alt="Vue logo" src="../assets/desk.png" />
+      </div>
+      <div>
+        <Hello />
+      </div>
     </div>
-    <div>
-      <Hello />
-      <Sign />
-    </div>
+    <Copyright />
   </div>
 
 </template>
 
 <script>
 import Hello from "@/components/Hello.vue";
-import Sign from "@/components/Sign.vue";
+import Navbar from "@/components/Navbar.vue";
+import Copyright from "@/components/Copyright.vue";
 export default {
   name: "Home",
   components: {
     Hello,
-    Sign,
+    Navbar,
+    Copyright,
   },
 };
 </script>
