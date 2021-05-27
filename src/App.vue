@@ -1,8 +1,11 @@
 <template>
-  <Navbar />
-  <router-view />
-  <Copyright />
+  <div id="app">
+    <Navbar />
+    <router-view />
+    <Copyright />
+  </div>
 </template>
+  
 
 <script>
 import Navbar from "@/components/Navbar.vue";

@@ -1,9 +1,14 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/desk.png" />
-    <Hello />
-    <Sign />
+    <div>
+      <img alt="Vue logo" src="../assets/desk.png" />
+    </div>
+    <div>
+      <Hello />
+      <Sign />
+    </div>
   </div>
+
 </template>
 
 <script>
@@ -11,7 +16,7 @@ import Hello from "@/components/Hello.vue";
 import Sign from "@/components/Sign.vue";
 export default {
   name: "Home",
-  component: {
+  components: {
     Hello,
     Sign,
   },
